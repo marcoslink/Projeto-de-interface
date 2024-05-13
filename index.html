@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dbed6b6114.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Mercado Expresso</title>
+</head>
+
+<body>
+  <!-- Header da pagina -->
+  <header>
+    <div class="Logo" > 
+      <img src="logo-mercado-expresso.png" alt="Logo do mercado" style="padding-left: 26px;">
+    </div>
+    <ul class="textos-header">
+      <li class="textos-header"> <i class="fa-solid fa-paper-plane" id="h-icons"> </i>Produtos</li>
+
+      <li class="textos-header"> <i class="fa-solid fa-pen-to-square" id="h-icons"></i><a href="cadastro.html">Regristro</a></li>
+      
+      <li class="textos-header"> <i class="fa-solid fa-lock" id="h-icons"></i> Login</li>
+    </ul>
+  </header>
+
+  <!-- Barra de pesquisa -->
+  <div class="pesquisar"> 
+    <div class="fundo-cima">
+      <div class="box-p">
+        <form>
+          <div class="input-wrapper">
+            <input type="text" id="b-pesquisar" placeholder="Pesquisar...">
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+          <div class="filtro-wrapper">
+            <p>Filtrar por:</p> 
+            <select name="filtro" class="filtro">
+              <option value="alimentos">Alimentos</option>
+              <option value="bebidas">Bebidas</option>
+              <option value="infantil">Infantil</option>
+              <option value="casa-mesa-banho">Casa mesa e banho</option>
+              <option value="cuidado-pessoal">Cuidado pessoal</option>
+              <option value="destilados">Destilados</option>
+              <option value="limpeza">Limpeza</option>
+              <option value="petshop">Petshop</option>
+              <option value="papelaria">Papelaria</option>
+            </select>
+            </div>  
+          </div>
+        </form>
+      </div>
+    </div>
+  
+  <!-- Imagem da promoção do dia-->
+  <div class="container-carrossel">
+    <div class="envoltorio">
+      <i id="esquerda" class="fa-solid fa-angle-left"></i>
+      <div class="carrossel" id="promo">
+        <img src="Imagens promoção/Promo1.png" alt="img" draggable="false">
+        <img src="Imagens promoção/Promo2.png" alt="img" draggable="false">
+        <img src="Imagens promoção/Promo3.png" alt="img" draggable="false">
+      </div>
+      <i id="direita" class="fa-solid fa-angle-right"></i>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+  <!-- Categorias -->
+  <div class="lateral-container">
+    <div class="lateral-esquerda">
+      <nav>
+        <ol>
+          <li class="submenu">
+            <h2 class="h1-categorias"> <i class="fa-regular fa-hand-point-right"></i> CATEGORIAS</h2>
+            <ul class="menu">
+              <li class="content">
+                <button type="button" class="collapsible"><i class="fa-solid fa-angles-right fa-xs"></i> Alimentos</button>
+                <ul class="sub-menu">
+                  <li><a href="HTML dos produtos/horti fruti e vegetais.html" target="produtos" class="texto-categorias">Hortifruti e vegetais</a></li>
+                  <li><a href="HTML dos produtos/carnes e aves.html" target="produtos" class="texto-categorias">Carnes e aves</a></li>
+                  <li><a href="HTML dos produtos/Graos e cereais.html" target="produtos" class="texto-categorias">Grãos e Cereais</a></li>
+                </ul>
+              </li>
+              <li class="content">
+                <button type="button" class="collapsible"><i class="fa-solid fa-angles-right fa-xs"></i> Bebidas</button>
+                <ul class="sub-menu">
+                  <li><a href="HTML dos produtos/refrigerantes e sucos.html" target="produtos" class="texto-categorias">Refrigerantes e Sucos</a></li>
+                  <li><a href="HTML dos produtos/chá e cafes.html" target="produtos" class="texto-categorias">Chá e Cafés</a></li>
+                </ul>
+              </li>
+              <li class="content">
+                <button type="button" class="collapsible"><i class="fa-solid fa-angles-right fa-xs"></i> Bebes e criança</button>
+                <ul class="sub-menu">
+                  <li><a href="HTML dos produtos/fraldas e trocadores.html" target="produtos" class="texto-categorias">Fraldas e Trocadores</a></li>
+                  <li><a href="HTML dos produtos/alimentaçao infantil.html" target="produtos" class="texto-categorias">Alimentação infantil</a></li>                  
+                </ul>
+              </li>
+              <li class="content">
+                <button type="button" class="collapsible"><i class="fa-solid fa-angles-right fa-xs"></i> Casa, mesa e banho</button>
+                <ul class="sub-menu">
+                  <li><a href="HTML dos produtos/roupas de cama.html" target="produtos" class="texto-categorias">Roupas de cama</a></li>
+                </ul>
+              </li>
+              <li class="content">
+                <button type="button" class="collapsible"><i class="fa-solid fa-angles-right fa-xs"></i> Destilados</button>
+                <ul class="sub-menu">
+                  <li><a href="HTML dos produtos/bebidas alcoolicas.html" target="produtos" class="texto-categorias">Bebidas alcoólicas</a></li>
+                </ul>
+              </li>
+              <li class="content">
+                <button type="button" class="collapsible"><i class="fa-solid fa-angles-right fa-xs"></i> Limpeza</button>
+                <ul class="sub-menu">
+                  <li><a href="HTML dos produtos/produtos de casa.html" target="produtos" class="texto-categorias">Produtos de Casa</a></li>
+                </ul>
+              </li>
+              <li class="content">
+                <button type="button" class="collapsible"><i class="fa-solid fa-angles-right fa-xs"></i> Petshop</button>
+                <ul class="sub-menu">
+                  <li><a href="HTML dos produtos/comidas e raçao.html" target="produtos" class="texto-categorias">Comidas e Ração</a></li>
+                  <li><a href="HTML dos produtos/acessorios.html" target="produtos" class="texto-categorias">Acessórios</a></li>
+                </ul>
+              </li>
+              <li class="content">
+                <button type="button" class="collapsible"><i class="fa-solid fa-angles-right fa-xs"></i> Papelaria</button>
+                <ul class="sub-menu">
+                  <li><a href="HTML dos produtos/cadernos e canetas.html" target="produtos" class="texto-categorias">Cadernos e canetas</a></li>
+                </ul>
+              </li>
+            </ol>
+          </nav>
+        </div>
+        <!-- Produtos -->
+        <div class="iframe-container">
+          <iframe src="" name="produtos" id="produtos" ></iframe>
+        </div>
+
+        <!-- Carrinho -->
+        <div class="lateral-direito">
+          <button  class="fa-solid fa-cart-shopping" id="botao-flutuante"></button>
+          <div class="box">
+            <h1 class="hcarrinho">CARRINHO</h1>
+            <div class="info"><i class="fa-solid fa-truck"></i>Delivery info</div>
+            <div class="itens"><p class="c-itens"><i class="fa-solid fa-basket-shopping fa-xl" style="padding: 10px;"></i>0 Itens</p>
+              <div class="preco">
+                <p>Sub total</p>
+                <p style="font-weight: bold; font-size: 24px;">R$0,00</p>
+              </div>
+             </div>
+            <button class="bttcarrinho">Finalizar Compra</button>
+          </div>
+        </div>
+      </div>
+      
+
+
+      <footer>
+        <!-- Rodape -->
+        <div id="footer_content">
+
+           <ul class="footer-lista">
+            <li>
+              <h2>Informações</h2>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Termos de uso</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Politica de privacidade</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Política do retorno</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Política do segurança</a>
+            </li>
+           </ul>
+            
+            <ul class="footer-lista">
+              <li>
+                <h2>Sobre nós</h2>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Sobre nós</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Blog da compania</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Contate-nos</a>
+              </li>
+           </ul>
+
+          <ul class="footer-lista">
+            <li>
+              <h2>Minha conta</h2>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Minha conta</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Ultimos pedidos</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Promoções especiais</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Promoção do dia</a>
+            </li>
+          </ul>
+
+          <div id="footer_pagamentos">
+            <h3>Meios de pagamento</h3>
+           <container id="footer-icons">
+            <a id="visa">
+              <i class="fa-brands fa-cc-visa fa-3x"></i>
+            </a>
+            <a id="paypal">
+              <i class="fa-brands fa-cc-paypal fa-3x"></i>
+            </a>
+            <a id="mastercard">
+              <i class="fa-brands fa-cc-mastercard fa-3x"></i>
+            </a>
+            <a id="cartao">
+              <i class="fa-solid fa-credit-card fa-3x"></i>
+            </a>
+          </container>
+          </div>
+
+          <div id="footer_inscreva-se">
+            <h3>Inscreva-se</h3>
+
+            <p>
+              Se inscreva para ficar por dentro das novidades:
+            </p>
+
+            <div id="input_group">
+              <input type="email" id="email" placeholder="Insira seu email" style="height: 40px;width: 250px;PADDING: 15PX;border: none;">
+            </div>
+            <button class="btn-footer">
+              INSCREVA-SE
+            </button>
+          </div>
+        </div>
+
+        <div id="footer_copyright">
+          &#169
+          2023 Todos os direitos reservados
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
